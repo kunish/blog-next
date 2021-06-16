@@ -1,4 +1,4 @@
 [build]
 publish = "out"
-command = "npm run build && npx next export"
+command = "yarn build && npx next export"
 environment = { NODE_VERSION="14" }
