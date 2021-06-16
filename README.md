@@ -1,5 +1,5 @@
 <h1 align="center">
-  Next.js blog starter
+  Next.js blog
 </h1>
 
 Start off your writing journey with this Next.js markdown blog template.
@@ -66,6 +66,6 @@ To learn more about Tailwind CSS, take a look at the following resources:
 
 ## ☁ Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Jfelix61/nextjs-starter-blog)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kunish/blog-next)
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/Jfelix61/nextjs-starter-blog)

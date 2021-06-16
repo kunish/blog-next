@@ -6,7 +6,7 @@
     },
     "description": "A blog created with Next.js and Tailwind.css",
     "language": "zh-CN",
-    "siteUrl": "https://next.blog.shikun.info",
+    "siteUrl": "https://blog-next-shikun.vercel.app/",
     "social": {
       "github": "kunish"
     },
