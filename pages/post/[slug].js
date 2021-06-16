@@ -1,10 +1,30 @@
 import Link from "next/link";
-import ReactMarkdown from "react-markdown/with-html";
+import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import style from "react-syntax-highlighter/dist/cjs/styles/prism/dracula";
+import { dracula as style } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 import { Layout, Image, SEO, Bio } from "@components/common";
 import { getPostBySlug, getPostsSlugs } from "@utils/posts";
+
+const CodeBlock = ({ className, children }) => {
+  const match = /language-(\w+)/.exec(className || "");
+
+  return (
+    <SyntaxHighlighter style={style} language={match[1]}>
+      {children}
+    </SyntaxHighlighter>
+  );
+};
+
+const MarkdownImage = ({ alt, src }) => (
+  <Image
+    className="w-full"
+    src={require(`../../content/assets/${src}`)}
+    webpSrc={require(`../../content/assets/${src}?webp`)}
+    previewSrc={require(`../../content/assets/${src}?lqip`)}
+    alt={alt}
+  />
+);
 
 export default function Post({ post, frontmatter, nextPost, previousPost }) {
   return (
@@ -23,9 +43,8 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
         </header>
         <ReactMarkdown
           className="mb-4 prose lg:prose-lg dark:prose-dark"
-          escapeHtml={false}
-          source={post.content}
-          renderers={{ code: CodeBlock, image: MarkdownImage }}
+          children={post.content}
+          components={{ code: CodeBlock, img: MarkdownImage }}
         />
         <hr className="mt-4" />
         <footer>
@@ -77,21 +96,3 @@ export async function getStaticProps({ params: { slug } }) {
 
   return { props: postData };
 }
-
-const CodeBlock = ({ language, value }) => {
-  return (
-    <SyntaxHighlighter style={style} language={language}>
-      {value}
-    </SyntaxHighlighter>
-  );
-};
-
-const MarkdownImage = ({ alt, src }) => (
-  <Image
-    alt={alt}
-    src={require(`../../content/assets/${src}`)}
-    webpSrc={require(`../../content/assets/${src}?webp`)}
-    previewSrc={require(`../../content/assets/${src}?lqip`)}
-    className="w-full"
-  />
-);

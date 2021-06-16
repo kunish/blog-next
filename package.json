@@ -1,48 +1,45 @@
 {
-  "name": "nextjs-blog-starter",
+  "name": "@shikun/blog-next",
   "version": "0.2.0",
-  "description": "A Next.js template for a blog website.",
   "private": true,
+  "description": "A Next.js blog website.",
+  "keywords": [
+    "next.js",
+    "blog"
+  ],
+  "homepage": "https://github.com/kunish/blog-next#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunish/blog-next"
+  },
+  "license": "MIT",
   "scripts": {
+    "start": "next start",
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build"
   },
   "dependencies": {
     "clsx": "^1.1.1",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
-    "lazysizes": "^5.3.1",
+    "lazysizes": "^5.3.2",
     "lqip-loader": "^2.2.1",
-    "next": "10.0.9",
-    "next-compose-plugins": "^2.2.1",
-    "next-optimized-images": "^2.6.2",
+    "next": "11.0.0",
     "next-themes": "^0.0.14",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-markdown": "^5.0.3",
+    "react-markdown": "^6.0.2",
     "react-syntax-highlighter": "^15.4.3",
-    "react-toggle-dark-mode": "^1.0.3",
+    "react-toggle-dark-mode": "^1.0.4",
     "typeface-merriweather": "^1.1.13",
     "typeface-open-sans": "^1.1.13",
     "webp-loader": "^0.6.0"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.4.0",
-    "autoprefixer": "^10.2.5",
-    "gray-matter": "^4.0.2",
-    "postcss": "^8.2.8",
-    "tailwindcss": "^2.0.4"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jfelix61/nextjs-starter-blog.git"
-  },
-  "homepage": "https://github.com/Jfelix61/nextjs-starter-blog#readme",
-  "keywords": [
-    "next.js",
-    "blog",
-    "template"
-  ]
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.2.6",
+    "gray-matter": "^4.0.3",
+    "postcss": "^8.3.4",
+    "tailwindcss": "^2.1.4"
+  }
 }
