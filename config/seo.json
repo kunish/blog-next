@@ -1,14 +1,14 @@
 {
   "siteMetadata": {
     "author": {
-      "name": "Jose Felix",
-      "summary": "who works building clean user interfaces with React."
+      "name": "Shi Kun",
+      "summary": "software engineer"
     },
     "description": "A blog created with Next.js and Tailwind.css",
-    "language": "en-US",
-    "siteUrl": "https://nextjs-starter-blog-demo.netlify.app/",
+    "language": "zh-CN",
+    "siteUrl": "https://next.blog.shikun.info",
     "social": {
-      "twitter": "Jose_R_Felix"
+      "github": "kunish"
     },
     "title": "Kunish Blog"
   }
