@@ -315,10 +315,10 @@
   resolved "https://registry.nlark.com/@sindresorhus/is/download/@sindresorhus/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha1-mgb08TfuhNffBGDB/bETX/psUP0=
 
-"@tailwindcss/typography@^0.4.1":
+"@tailwindcss/typography@0.4.1":
   version "0.4.1"
-  resolved "https://registry.nlark.com/@tailwindcss/typography/download/@tailwindcss/typography-0.4.1.tgz#51ddbceea6a0ee9902c649dbe58871c81a831212"
-  integrity sha1-Ud287qag7pkCxknb5YhxyBqDEhI=
+  resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.4.1.tgz#51ddbceea6a0ee9902c649dbe58871c81a831212"
+  integrity sha512-ovPPLUhs7zAIJfr0y1dbGlyCuPhpuv/jpBoFgqAc658DWGGrOBWBMpAWLw2KlzbNeVk4YBJMzue1ekvIbdw6XA==
   dependencies:
     lodash.castarray "^4.4.0"
     lodash.isplainobject "^4.0.6"
@@ -532,10 +532,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.npm.taobao.org/at-least-node/download/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha1-YCzUtG6EStTv/JKoARo8RuAjjcI=
 
-autoprefixer@^10.2.6:
+autoprefixer@10.2.6:
   version "10.2.6"
-  resolved "https://registry.nlark.com/autoprefixer/download/autoprefixer-10.2.6.tgz#aadd9ec34e1c98d403e01950038049f0eb252949"
-  integrity sha1-qt2ew04cmNQD4BlQA4BJ8OslKUk=
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.6.tgz#aadd9ec34e1c98d403e01950038049f0eb252949"
+  integrity sha512-8lChSmdU6dCNMCQopIf4Pe5kipkAGj/fvTMslCsih0uHpOrXOPUEVOmYMMqmw3cekQkSD7EhIeuYl5y0BLdKqg==
   dependencies:
     browserslist "^4.16.6"
     caniuse-lite "^1.0.30001230"
@@ -1006,10 +1006,10 @@ clone-response@1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
-clsx@^1.1.1:
+clsx@1.1.1:
   version "1.1.1"
-  resolved "https://registry.nlark.com/clsx/download/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
-  integrity sha1-mLMTT5q73yOyZjSRrOE8XAOnMYg=
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
 
 color-convert@^1.9.0, color-convert@^1.9.1:
   version "1.9.3"
@@ -2102,10 +2102,10 @@ graceful-fs@^4.1.10, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0,
   resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha1-/wQLKwhTsjw9MQJ1I3BvGIXXa+4=
 
-gray-matter@^4.0.3:
+gray-matter@4.0.3:
   version "4.0.3"
-  resolved "https://registry.nlark.com/gray-matter/download/gray-matter-4.0.3.tgz#e893c064825de73ea1f5f7d88c7a9f7274288798"
-  integrity sha1-6JPAZIJd5z6h9ffYjHqfcnQoh5g=
+  resolved "https://registry.yarnpkg.com/gray-matter/-/gray-matter-4.0.3.tgz#e893c064825de73ea1f5f7d88c7a9f7274288798"
+  integrity sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==
   dependencies:
     js-yaml "^3.13.1"
     kind-of "^6.0.2"
@@ -2304,19 +2304,19 @@ image-size@1.0.0:
   dependencies:
     queue "6.0.2"
 
-imagemin-mozjpeg@^9.0.0:
+imagemin-mozjpeg@9.0.0:
   version "9.0.0"
-  resolved "https://registry.npm.taobao.org/imagemin-mozjpeg/download/imagemin-mozjpeg-9.0.0.tgz#d1af26d0b43d75a41c211051c1910da59d9d2324"
-  integrity sha1-0a8m0LQ9daQcIRBRwZENpZ2dIyQ=
+  resolved "https://registry.yarnpkg.com/imagemin-mozjpeg/-/imagemin-mozjpeg-9.0.0.tgz#d1af26d0b43d75a41c211051c1910da59d9d2324"
+  integrity sha512-TwOjTzYqCFRgROTWpVSt5UTT0JeCuzF1jswPLKALDd89+PmrJ2PdMMYeDLYZ1fs9cTovI9GJd68mRSnuVt691w==
   dependencies:
     execa "^4.0.0"
     is-jpg "^2.0.0"
     mozjpeg "^7.0.0"
 
-imagemin-optipng@^8.0.0:
+imagemin-optipng@8.0.0:
   version "8.0.0"
-  resolved "https://registry.npm.taobao.org/imagemin-optipng/download/imagemin-optipng-8.0.0.tgz#b88e5cf6da25cc8479e07cdf38c3ae0479df7ef2"
-  integrity sha1-uI5c9tolzIR54HzfOMOuBHnffvI=
+  resolved "https://registry.yarnpkg.com/imagemin-optipng/-/imagemin-optipng-8.0.0.tgz#b88e5cf6da25cc8479e07cdf38c3ae0479df7ef2"
+  integrity sha512-CUGfhfwqlPjAC0rm8Fy+R2DJDBGjzy2SkfyT09L8rasnF9jSoHFqJ1xxSZWK6HVPZBMhGPMxCTL70OgTHlLF5A==
   dependencies:
     exec-buffer "^3.0.0"
     is-png "^2.0.0"
@@ -2793,10 +2793,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
-lazysizes@^5.3.2:
+lazysizes@5.3.2:
   version "5.3.2"
-  resolved "https://registry.npm.taobao.org/lazysizes/download/lazysizes-5.3.2.tgz#27f974c26f5fcc33e7db765c0f4930488c8a2984"
-  integrity sha1-J/l0wm9fzDPn23ZcD0kwSIyKKYQ=
+  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-5.3.2.tgz#27f974c26f5fcc33e7db765c0f4930488c8a2984"
+  integrity sha512-22UzWP+Vedi/sMeOr8O7FWimRVtiNJV2HCa+V8+peZOw6QbswN9k58VUhd7i6iK5bw5QkYrF01LJbeJe0PV8jg==
 
 load-bmfont@^1.2.3, load-bmfont@^1.3.1:
   version "1.4.1"
@@ -2944,10 +2944,10 @@ lpad-align@^1.0.1:
     longest "^1.0.0"
     meow "^3.3.0"
 
-lqip-loader@^2.2.1:
+lqip-loader@2.2.1:
   version "2.2.1"
-  resolved "https://registry.nlark.com/lqip-loader/download/lqip-loader-2.2.1.tgz#e2083c2e9e5a4e99cbc7452020e582af57b2dc1b"
-  integrity sha1-4gg8Lp5aTpnLx0UgIOWCr1ey3Bs=
+  resolved "https://registry.yarnpkg.com/lqip-loader/-/lqip-loader-2.2.1.tgz#e2083c2e9e5a4e99cbc7452020e582af57b2dc1b"
+  integrity sha512-GKCFqDaHg74/qbTlqh/WfUrlbGCp14baMgLwWwF2GMWrmStPcxCYS9y0E9RPXBsA2VtsOX67YH75bwQ8hcSsCw==
   dependencies:
     loader-utils "^1.1.0"
     lqip "^2.1.0"
@@ -3200,10 +3200,10 @@ native-url@0.3.4:
   dependencies:
     querystring "^0.2.0"
 
-next-themes@^0.0.14:
+next-themes@0.0.14:
   version "0.0.14"
-  resolved "https://registry.nlark.com/next-themes/download/next-themes-0.0.14.tgz#2b9861990bc453149e23d8e6ef1a25a119e36675"
-  integrity sha1-K5hhmQvEUxSeI9jm7xoloRnjZnU=
+  resolved "https://registry.yarnpkg.com/next-themes/-/next-themes-0.0.14.tgz#2b9861990bc453149e23d8e6ef1a25a119e36675"
+  integrity sha512-x09OaM+wg3SIlEjOv8B21aw/E36jxTtfW3Dm/DPwMsSMluGt7twe1LigA6nc+mXP1u0qu9MxBaIrPPH6UTiKnA==
 
 next@11.0.0:
   version "11.0.0"
@@ -4047,10 +4047,10 @@ react-is@^16.8.1:
   resolved "https://registry.nlark.com/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-react-markdown@^6.0.2:
+react-markdown@6.0.2:
   version "6.0.2"
-  resolved "https://registry.nlark.com/react-markdown/download/react-markdown-6.0.2.tgz#d89be45c278b1e5f0196f851fffb11e30c69f027"
-  integrity sha1-2JvkXCeLHl8BlvhR//sR4wxp8Cc=
+  resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-6.0.2.tgz#d89be45c278b1e5f0196f851fffb11e30c69f027"
+  integrity sha512-Et2AjXAsbmPP1nLQQRqmVgcqzfwcz8uQJ8VAdADs8Nk/aaUA0YeU9RDLuCtD+GwajCnm/+Iiu2KPmXzmD/M3vA==
   dependencies:
     "@types/hast" "^2.0.0"
     "@types/unist" "^2.0.3"
@@ -4083,10 +4083,10 @@ react-spring@^9.0.0-rc.3:
     "@react-spring/web" "~9.2.0"
     "@react-spring/zdog" "~9.2.0"
 
-react-syntax-highlighter@^15.4.3:
+react-syntax-highlighter@15.4.3:
   version "15.4.3"
-  resolved "https://registry.npm.taobao.org/react-syntax-highlighter/download/react-syntax-highlighter-15.4.3.tgz#fffe3286677ac470b963b364916d16374996f3a6"
-  integrity sha1-//4yhmd6xHC5Y7NkkW0WN0mW86Y=
+  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.4.3.tgz#fffe3286677ac470b963b364916d16374996f3a6"
+  integrity sha512-TnhGgZKXr5o8a63uYdRTzeb8ijJOgRGe0qjrE0eK/gajtdyqnSO6LqB3vW16hHB0cFierYSoy/AOJw8z1Dui8g==
   dependencies:
     "@babel/runtime" "^7.3.1"
     highlight.js "^10.4.1"
@@ -4094,10 +4094,10 @@ react-syntax-highlighter@^15.4.3:
     prismjs "^1.22.0"
     refractor "^3.2.0"
 
-react-toggle-dark-mode@^1.0.4:
+react-toggle-dark-mode@1.0.4:
   version "1.0.4"
-  resolved "https://registry.nlark.com/react-toggle-dark-mode/download/react-toggle-dark-mode-1.0.4.tgz#196defb8ed5fa7623241048d46104fa24d98e214"
-  integrity sha1-GW3vuO1fp2IyQQSNRhBPok2Y4hQ=
+  resolved "https://registry.yarnpkg.com/react-toggle-dark-mode/-/react-toggle-dark-mode-1.0.4.tgz#196defb8ed5fa7623241048d46104fa24d98e214"
+  integrity sha512-MREeRur1XGzwyDZZAvPFg01wL9ljR1Dugubc3s/i2bMlLIKaWPfQgx5JbomZfLAxa6OXYDbozJa0e+v39GawmA==
   dependencies:
     react-spring "^9.0.0-rc.3"
 
@@ -4750,10 +4750,10 @@ supports-color@^8.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-tailwindcss@^2.1.4:
+tailwindcss@2.1.4:
   version "2.1.4"
-  resolved "https://registry.nlark.com/tailwindcss/download/tailwindcss-2.1.4.tgz#ee8a1b8ccc140db61960b6738f968a8a1c4cd1f8"
-  integrity sha1-7oobjMwUDbYZYLZzj5aKihxM0fg=
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.4.tgz#ee8a1b8ccc140db61960b6738f968a8a1c4cd1f8"
+  integrity sha512-fh1KImDLg6se/Suaelju/5oFbqq1b0ntagmGLu0aG9LlnNPGHgO1n/4E57CbKcCtyz/VYnvVXUiWmfyfBBZQ6g==
   dependencies:
     "@fullhuman/postcss-purgecss" "^3.1.3"
     bytes "^3.0.0"
@@ -4932,15 +4932,15 @@ type-fest@^0.7.1:
   resolved "https://registry.nlark.com/type-fest/download/type-fest-0.7.1.tgz?cache=0&sync_timestamp=1622543391721&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftype-fest%2Fdownload%2Ftype-fest-0.7.1.tgz#8dda65feaf03ed78f0a3f9678f1869147f7c5c48"
   integrity sha1-jdpl/q8D7Xjwo/lnjxhpFH98XEg=
 
-typeface-merriweather@^1.1.13:
+typeface-merriweather@1.1.13:
   version "1.1.13"
-  resolved "https://registry.nlark.com/typeface-merriweather/download/typeface-merriweather-1.1.13.tgz#c6f0564bc0346174f4da8daf282d27bfa802f06f"
-  integrity sha1-xvBWS8A0YXT02o2vKC0nv6gC8G8=
+  resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-1.1.13.tgz#c6f0564bc0346174f4da8daf282d27bfa802f06f"
+  integrity sha512-ho6xe/y/uHIKVXsFtK+dJfRCD5KZqJCMYTCcXfuCwQHQbeQ83a7hVkxfRMTEIjZOSXw5SevOjnwJuZ5QgWEHiw==
 
-typeface-open-sans@^1.1.13:
+typeface-open-sans@1.1.13:
   version "1.1.13"
-  resolved "https://registry.nlark.com/typeface-open-sans/download/typeface-open-sans-1.1.13.tgz#32a09ebd7df59601e01ad81216f98ce641eeafd1"
-  integrity sha1-MqCevX31lgHgGtgSFvmM5kHur9E=
+  resolved "https://registry.yarnpkg.com/typeface-open-sans/-/typeface-open-sans-1.1.13.tgz#32a09ebd7df59601e01ad81216f98ce641eeafd1"
+  integrity sha512-lVGVHvYl7UJDFB9vN8r7NHw3sVm7Rjeow6b9AeABc/J+2mDaCkmcdVtw3QZnsJW39P+xm5zeggIj9gLHYGn9Iw==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
@@ -5182,10 +5182,10 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.npm.taobao.org/webidl-conversions/download/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha1-qFWYCx8LazWbodXZ+zmulB+qY60=
 
-webp-loader@^0.6.0:
+webp-loader@0.6.0:
   version "0.6.0"
-  resolved "https://registry.nlark.com/webp-loader/download/webp-loader-0.6.0.tgz#f9086777bb02ec653d046634014e95212e627032"
-  integrity sha1-+Qhnd7sC7GU9BGY0AU6VIS5icDI=
+  resolved "https://registry.yarnpkg.com/webp-loader/-/webp-loader-0.6.0.tgz#f9086777bb02ec653d046634014e95212e627032"
+  integrity sha512-+3k/ojbdh6U74G8nKFB4syaXxjx294xOt+WAVlN84w/7ew6jJCS6DCoGzK8P/giRR4FiSVisKWIydGlb6EXOFQ==
   dependencies:
     imagemin "7.0.1"
     imagemin-webp "5.1.0"
